@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  .form-input {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600;
+  }
+}
+
+/* Estilos para o MDEditor */
+.w-md-editor {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.w-md-editor-content {
+  height: 100% !important;
+}
+
+.w-md-editor-text-pre,
+.w-md-editor-text-input,
+.w-md-editor-text {
+  min-height: 100% !important;
+}
+
+/* Ajustes para o tema escuro do editor */
+.dark .w-md-editor {
+  background-color: #1a1a1a !important;
+  color: #e5e5e5 !important;
+}
+
+.dark .w-md-editor-text {
+  background-color: #1a1a1a !important;
+  color: #e5e5e5 !important;
+}
+
+.dark .w-md-editor-toolbar {
+  background-color: #1a1a1a !important;
+  border-color: #333 !important;
+}
+
+.dark .w-md-editor-toolbar svg {
+  color: #e5e5e5 !important;
+}
+
+.dark .w-md-editor-toolbar button {
+  color: #e5e5e5 !important;
+}
+
+.dark .w-md-editor-toolbar button:hover {
+  background-color: #333 !important;
+}
+
+/* Estilos para quebra de texto automática */
+.w-md-editor-text-input {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+}
+
+.w-md-editor-text-input > textarea {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  word-break: break-word !important;
+}
+
+/* Estilos para scroll personalizado */
+.overflow-auto {
+  scrollbar-width: thin;
+  scrollbar-color: #CBD5E0 #EDF2F7;
+}
+
+.dark .overflow-auto {
+  scrollbar-color: #4A5568 #2D3748;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+  background: #EDF2F7;
+  border-radius: 4px;
+}
+
+.dark .overflow-auto::-webkit-scrollbar-track {
+  background: #2D3748;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+  background: #CBD5E0;
+  border-radius: 4px;
+}
+
+.dark .overflow-auto::-webkit-scrollbar-thumb {
+  background: #4A5568;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+  background: #A0AEC0;
+}
+
+.dark .overflow-auto::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
+
+/* Estilos para o redimensionamento dos painéis */
+[data-panel-resize-handle] {
+  cursor: row-resize;
+  touch-action: none;
+}
+
+[data-panel-resize-handle]:hover {
+  background-color: rgb(59, 130, 246);
+}
+
+[data-panel-resize-handle]:active {
+  background-color: rgb(37, 99, 235);
+} 
