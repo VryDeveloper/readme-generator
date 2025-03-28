@@ -1,8 +1,5 @@
 # 🚀 README.md Generator
 
-[![GitHub Stars](https://img.shields.io/github/stars/seu-usuario/seu-repositorio?style=social)](https://github.com/seu-usuario/seu-repositorio/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/seu-usuario/seu-repositorio?style=social)](https://github.com/seu-usuario/seu-repositorio/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/seu-usuario/seu-repositorio)](https://github.com/seu-usuario/seu-repositorio/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Crie READMEs incríveis para seus projetos GitHub em minutos!** ⚡️
